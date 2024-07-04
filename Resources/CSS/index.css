@@ -1,0 +1,183 @@
+
+
+#main
+{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font: size 22px;
+    opacity: 0.9;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    
+    
+}
+
+#logo {
+    height: 50px;
+    padding: 10px;
+}
+
+ul li
+{
+    display: inline-block;
+    text-decoration: underline;
+}
+#mission
+{
+    align-items: center;
+    background: url('../Images/img-mission-background.webp') center;
+    display:flex;
+    background-repeat: no-repeat;
+    height:700px;
+    justify-content: center;
+    margin: 69px auto; /*69 px sets the top and bottom margins to 69 pixels, while 'auto' sets the left and right hand margins to automatically adjust*/
+    max-width: 1200px;
+}
+#banner
+{
+        background-color: black;
+        width:1200px;
+        text-align: center;
+}
+#Tea 
+{
+margin: 69px auto;
+max-width:1000px;
+}
+#Tea h2, h4
+{
+    text-align: center;
+}
+
+#container2
+{
+    display:inline-flex;
+    justify-content:space-around;
+    align-content: center;
+    max-width: 1000px;
+    flex-wrap:wrap;/*will move the boxes that don't fit in the first row to the next line*/
+}
+.pic
+{
+    height:200px;
+    width:300px;
+   
+}
+.tea-name
+{
+margin-top: 10px;
+text-align: center;
+}
+.locations
+{
+    background: url('../Images/img-locations-background.webp') center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto; /* centers an element horizontally within its container*/
+    background-repeat: no-repeat;
+    min-height:500px;
+    max-width: 1200px;
+}
+.locations h2
+{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.places
+{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+.box1,.box2,.box3
+{
+width: 300px;
+background-color: black;
+text-align: center;
+margin: 15px 40px;
+justify-content: space-around;
+}
+.bottom
+{
+    height:200px;
+    text-align: center;
+}
+.copyright
+{
+    text-align: left;
+    padding:20px;
+}
+
+
+h1{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    color: khaki;
+    text-align:center;
+    padding-bottom: 30px;
+    
+}
+
+.header{
+    background-image: url("../Images/Image1.webp");
+    background-position: center center;
+    height:100px;
+}
+
+.brushes{
+    margin-top: 30px;
+    background-color: mediumspringgreen;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3{
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+
+
+p span{
+    font-family:Helvetica;
+    font-weight:bold;
+    color:blue;
+}
+
+p{
+    font-family:Helvetica;
+    font-weight:bold; 
+} 
+
+.frames{
+    margin-top: 30px;
+    background-color: lightcoral;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.paint{
+    margin-top: 30px;
+    background-color: skyblue;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
