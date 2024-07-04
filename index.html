@@ -2,40 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./Resources/CSS/index.css">
+    <link href= './Resources/CSS/index.css' rel="stylesheet">
 </head>
-<body>
-    <div class = 'header'>
-        <h1>Dasmoto's Arts & Crafts</h1>
+<body id = "main">
+    <header class = "container">
+        <img id = "logo" src = "Resources/Images/img-tea-cozy-logo.webp">
+        <nav>
+            <ul>
+                <li>Mission</li>
+                <li>Featured Tea</li>
+                <li>Locations</li>
+            </ul>
+        </nav>
+    </header>
+    <div id = "mission">
+        <div id = "banner">
+            <h2>Our Mission</h2>
+            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+        </div>
     </div>
-    <div>
-        <h2 class="brushes"> Brushes</h1>
+    <div id = "Tea">
+      <h2> Tea of the month</h2>
+      <h4>What's Steeping at the Tea Cozy?</h4>
+      <div id = "container2">
+        <figure>
+            <img class ="pic" src ="Resources/Images/img-berryblitz.webp"/>
+            <figcaption class = "tea-name">Berry Blitz Tea</figcaption> 
+        </figure>
+        <figure>
+            <img class ="pic" src ="Resources/Images/img-spiced-rum.webp"/>
+            <figcaption class = "tea-name">Spiced Rum Tea</figcaption> 
+        </figure>
+        <figure>
+            <img class ="pic" src ="Resources/Images/img-donut.webp"/>
+            <figcaption class = "tea-name">Seasonal Donuts</figcaption> 
+        </figure>
+        <figure>
+            <img class = "pic" src = "Resources/Images/img-myrtle-ave.webp"/>
+            <figcaption class = "tea-name">Myrtle Ave Tea</figcaption> 
+        </figure>
+        <figure>
+            <img class = "pic" src = "Resources/Images/img-bedford-bizarre.webp"/>
+            <figcaption class = "tea-name">Bedford Bizarre Tea</figcaption> 
+        </figure>
+      </div>
     </div>
-    <img src = "./Resources/Images/Image2.webp">
-    <h3>Hacksaw Brushes</h3>
-    <p>
-        Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span>Starting at $3.00/brush.</span>
-    </p>
-    <div>
-        <h2 class="frames"> Frames</h2>
+    <div class = "locations">
+        <h2>Locations</h2>
+        <div class = "places">
+            <div class = "box1" id = "center">
+                <h3>Downtown</h3>
+                <p>384 West 4th St</p>
+                <p>Suite 108</p>
+                <p>Portland, Maine</p>
+            </div>
+            <div class = "box2" id = "center">
+                <h3>East Bayside</h3>
+                <p>3433 Phisherman's Avenue</p>
+                <p>(Northwest Corner)</p>
+                <p>Portland, Maine</p>
+            </div>
+            <div class = "box3" id = "center">
+                <h3>Oakdale</h3>
+                <p>515 Crescent Avenue</p>
+                <p>Second Floor</p>
+                <p>Portland, Maine</p>
+            </div>
+        </div>
     </div>
-    <img src="./Resources/Images/Image3.webp">
-    <h3>Art Frames (assorted)</h3>
-    <p>
-        Assorted frames made of different material, incuding MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span>Starting at $2.00/frame.</span>
-    </p>
-    <div>
-        <h2 class="paint"> Paint</h2>
-    </div>
-    <img src="./Resources/Images/Image4.jpeg">
-    <h3>Clean Finnish Paint</h3>
-    <p>
-        Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork.
-         <span>Starting at $5.00/tube.</span>
-    </p>
-    <h4>Article written by : Brenda O</h4>
-
+    <footer>
+        <div class = "bottom">
+            <h2>The Tea Cozy</h2>
+            <h5>contact@theteacozy.com</h5>
+            <p>917-555-8904</p>
+        </div>
+        <div class="copyright">
+            <p>copyright The Tea Cozy 2017</p>
+        </div>
+    </footer>
+  
 </body>
 </html>
