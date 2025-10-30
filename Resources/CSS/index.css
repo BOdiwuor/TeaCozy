@@ -9,7 +9,7 @@
 .container
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid seashell;
     height: 69px;
