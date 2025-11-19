@@ -31,7 +31,7 @@ Previously, the website was only accessible through a shared link from the owner
 I initially hosted the website on an **EC2 instance** to make it publicly accessible while the instance was running. This solution required:
 
 - Configuring **security groups** and network settings to allow web traffic from the internet.
-- Running an **Apache web server** to serve the static files.
+- Running an **Nginx server** to serve the static files.
 
 However, EC2 instances incur costs even when idle, making it an expensive solution in the long run. Since the Tea Cozy website is static, I looked for a more cost-effective option.
 
