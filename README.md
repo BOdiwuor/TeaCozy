@@ -45,7 +45,7 @@ I then explored **Amazon S3** for hosting static websites. Since the Tea Cozy we
 
 I copied the HTML and CSS files into an **S3 bucket** and configured it for **public read-only access**, allowing users to access the site. Although **S3** does not provide HTTPS by default, it’s an excellent platform for static websites.
 
-However, since my **AWS account wasn’t verified** (the process took longer than expected), I received an error when trying to create a **CloudFront distribution**. I documented how **CloudFront with Origin Access Control (OAC)** can be used to securely serve content over HTTPS while keeping the S3 bucket private.
+However, since my **AWS account wasn’t verified** (the process took longer than expected), I received an error when trying to create a **CloudFront distribution**. 
 
 ---
 
